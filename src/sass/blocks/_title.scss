@@ -17,4 +17,12 @@
     &_fz_48 {
         font-size: 48px;
     }
+    &__section-title {
+        position: relative;
+        text-align: center;
+        @include before_title_circle;
+    }
+    &__section-subtitle {
+        text-align: center;
+    }
 }
