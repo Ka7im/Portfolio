@@ -11,3 +11,18 @@
         background-color: $main-color;
     }
 }
+@mixin before_icon_circle {
+    @include before_circle;
+    &::before{
+        top: -50%;
+        left: -15px;
+    }
+}
+
+@mixin before_title_circle {
+    @include before_circle;
+    &::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

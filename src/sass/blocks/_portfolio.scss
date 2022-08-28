@@ -1,0 +1,17 @@
+.portfolio {
+    padding-top: 120px;
+    &__title {
+        position: relative;
+        text-align: center;
+        @include before_title_circle;
+    }
+    &__subtitle {
+        text-align: center;
+    }
+    &__divider {
+        margin: 25px auto 0 auto;
+    }
+    &__wrapper {
+        margin-top: 60px;
+    }
+}
