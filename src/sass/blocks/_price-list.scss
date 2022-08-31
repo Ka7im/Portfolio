@@ -25,7 +25,7 @@
         &::before {
             content: '';
             position: absolute;
-            left: -35px;
+            left: -25px;
             top: 4px;
             width: 15px;
             height: 15px;
@@ -38,6 +38,7 @@
     }
     .price {
         position: absolute;
+        width: unset;
         top: 0;
         right: 0;
     }
